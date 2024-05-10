@@ -17,6 +17,7 @@ spec:
       containers:
       - name: web-ci-cd-container
         image: sahanharshana/web-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 ---
