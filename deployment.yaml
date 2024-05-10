@@ -33,6 +33,7 @@ spec:
       port: 80
       targetPort: 80
       nodePort: 31338
+      hostIP: "0.0.0.0"
   externalIPs:
     - 10.0.2.15
   type: NodePort
