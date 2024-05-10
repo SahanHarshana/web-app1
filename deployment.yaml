@@ -32,6 +32,7 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
+      nodePort: 31338
   externalIPs:
     - 10.0.2.15
   type: NodePort
